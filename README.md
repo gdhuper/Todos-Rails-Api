@@ -2,5 +2,39 @@
 
 ---
 ---
+* Get Started
+1. Clone this repository
+ 	```
+ 	git clone https://github.com/gdhuper/Todos-Rails-Api.git
+	```
+2. Run 
 
-Learning how to build REST APIs with Rails! 
+	```
+	rails db:migrate
+	```
+3. Start the server 
+	```
+	rails server
+	```
+
+Download [httpie](https://httpie.org/) (HTTP CLI for terminal)
+
+---
+
+* To get tasks list:
+```
+http :{Port}/todos
+```
+* To add a new Task:
+```
+http POST :{Port}/todos title=Mozart created_by=1
+```
+* To Update a task
+
+```
+ http PUT :3000/todos/1 title=Beethoven
+```
+* To delete a task
+```
+http DELETE :3000/todos/1
+```
