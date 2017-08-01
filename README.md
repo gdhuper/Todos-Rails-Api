@@ -32,9 +32,9 @@ http POST :{Port}/todos title=Mozart created_by=1
 * To Update a task
 
 ```
- http PUT :3000/todos/1 title=Beethoven
+ http PUT :{Port}/todos/1 title=Beethoven
 ```
 * To delete a task
 ```
-http DELETE :3000/todos/1
+http DELETE :{Port}/todos/1
 ```
