@@ -18,7 +18,7 @@
 	```
 
 Download [httpie](https://httpie.org/) (HTTP CLI for terminal)
-
+---
 ---
 
 * To get tasks list:

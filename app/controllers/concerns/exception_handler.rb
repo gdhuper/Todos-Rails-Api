@@ -1,5 +1,5 @@
 module ExceptionHandler
-  # provides the more graceful `included` method
+  #helper exception handler support 
   extend ActiveSupport::Concern
 
   included do
